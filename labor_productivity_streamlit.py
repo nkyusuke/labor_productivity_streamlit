@@ -95,4 +95,5 @@ fig=px.bar(
 )
 st.plotly_chart(fig)
 
-dataset_pref_top10
+st.text("出典：RESUS（地域経済分析システム）")
+st.text("本結果はRESAS（地域経済分析システム）を加工して作成")
